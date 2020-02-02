@@ -12,14 +12,14 @@ Unit testing boilerplate - Jest & Vuetify2
 
 <p align="left">
   <img height="400px"
-  src="https://github.com/pradsdev/vuetify2-jest-snippets/tree/master/img/boilerplate.gif">
+  src="https://github.com/pradsdev/vuetify2-jest-snippets/blob/master/img/boilerplate.gif">
 </p>
 
 Iteration function - `it` with Vuex & Vuetify2
 
 <p align="left">
   <img height="400px"
-  src="https://github.com/pradsdev/vuetify2-jest-snippets/tree/master/img/it.gif">
+  src="https://github.com/pradsdev/vuetify2-jest-snippets/blob/master/img/it.gif">
 </p>
 
 ## Requirements

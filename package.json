@@ -3,6 +3,9 @@
     "displayName": "Vuetify2 Jest Snippets",
     "description": "Simple vuetify2 jest snippets",
     "version": "0.0.1",
+    "publisher": "pradsdev",
+    "repository": " https://github.com/pradsdev/vuetify2-jest-snippets",
+    "icon": "img/vuetify-logo.png",
     "engines": {
         "vscode": "^1.41.0"
     },
