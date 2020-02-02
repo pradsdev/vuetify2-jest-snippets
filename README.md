@@ -24,7 +24,9 @@ We assume that you've initiated/added unit testing using `@vue/test-utils` to yo
 
 Initial release of Vuetify2-jest snippets 
 
-### 1.0.0
+### Roadmap to 1.0.0
 
-- adds boilerplate
-- adds it function
+- adds boilerplate for more repetitive actions
+- adds most of the functions from jest
+
+Please create an issue in the repo for new features by tagging as `feat:new feature`
