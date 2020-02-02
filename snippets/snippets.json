@@ -1,0 +1,65 @@
+{
+  "vjest" :{
+    "prefix": "Vjest",
+    "body": [ 
+"import Vuetify from 'vuetify'",
+"import { createLocalVue, shallowMount } from '@vue/test-utils';",
+"",
+"import Vue from 'vue';",
+"import Vuex from 'vuex';",
+"",
+"Vue.use(Vuetify)",
+"const localVue = createLocalVue();",
+"localVue.use(Vuex);",
+"",
+"",
+"// removes vuetify warnings",
+"document.body.setAttribute('data-app', true)",
+
+"describe('$1', () => {",
+"",
+"\tlet vuetify",
+"\tlet store",
+"\tlet mutations = {",
+"",
+"\t}",
+"",
+  "\tbeforeEach(() => {",
+    "\t\tvuetify = new Vuetify();",
+    "\t\tstore = new Vuex.Store({",
+      "\t\t\tstate: {",
+      "\t\t\t},",
+      "\t\tmutations",
+    "\t\t})",
+
+  "\t})",
+
+  "\tit('renders', () => {",
+    "\t\tconst wrapper = shallowMount(${2}, {",
+      "\t\t\tstore,",
+      "\t\t\tlocalVue, vuetify,",
+    "\t\t})",
+    "\t\texpect(wrapper.exists()).toBe(true)",
+  "\t})",
+"",
+"",
+"",
+"})" 
+
+    ],
+    "description": "Vuetify2 Jest Vuex Boilerplate"
+  },
+  "it": {
+    "prefix": "it",
+    "body": [
+      "\tit('${1}', () => {",
+    "\t\tconst wrapper = shallowMount(${2}, {",
+      "\t\t\tstore,",
+      "\t\t\tlocalVue, vuetify,",
+    "\t\t})",
+    "\t\texpect(wrapper.exists()).toBe(true)",
+  "\t})"
+    ],
+    "description": "it"
+  }
+}

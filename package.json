@@ -1,0 +1,32 @@
+{
+    "name": "vuetify2-jest-snippets",
+    "displayName": "Vuetify2 Jest Snippets",
+    "description": "Simple vuetify2 jest snippets",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascriptVue",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "typescriptVue",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
